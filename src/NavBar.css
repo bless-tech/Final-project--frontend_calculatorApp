@@ -1,0 +1,50 @@
+.mr-auto{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: i.2rem;
+    padding-top: 2px
+}
+
+.auto2{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 30px;
+    width: 70vw;
+    justify-content: left;
+    text-align: center;
+    margin-right: 2rem;
+    list-style: none;
+}
+
+.nav{
+    float:left;
+    font-style: italic;
+    font-size:27px;
+    position: relative;
+    color: black;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: block;
+    background-color:rgb(26, 171, 224);
+    height: 6vh;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    position: relative;}    
+li{
+    float: right;
+    display: inline;
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+ul button{
+    float: right;
+    padding-top:2px;
+    color:green;
+}
